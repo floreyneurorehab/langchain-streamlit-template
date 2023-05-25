@@ -4,7 +4,7 @@ from streamlit_chat import message
 
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
-
+#from langchain.llms import GPT4All
 
 def load_chain():
     """Logic for loading the chain you want to use should go here."""
